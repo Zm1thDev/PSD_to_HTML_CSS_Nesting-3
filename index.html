@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fermfield</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- ----------side menu---------- -->
+    <div id="mysidemenu" class="sidemenu" >
+        <a href="" class="closebtn" onclick="closeBtn()">&times;</a>
+        <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+        <a href="#services"><i class="fa-solid fa-screwdriver-wrench"></i>Services</a>
+        <a href="#why"><i class="fa-solid fa-question"></i>Why Us</a>
+        <a href="#test"><i class="fa-regular fa-comment-dots"></i>Testimonial</a>
+        <a href="#blog"><i class="fa-solid fa-inbox"></i>Blog</a>
+        <a href="#contact"><i class="fa-solid fa-pen-to-square"></i>Contact Us</a>
+    </div>
+    <!-- ----------menu---------- -->
+    <div class="menu" id="home">
+        <div class="bar_logo">
+            <div class="group-bar" onclick="openSide()">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+            </div>
+            <div class="logo">
+                <p>farmfiled</p>
+            </div>
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="user">
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+    <!-- ----------header---------- -->
+    <div class="header">
+        <div class="group-header">
+            <div class="prev-next">
+                <div class="prev">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="next">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="info-header">
+                <div class="head">
+                    <p>agriculture</p>
+                    <p>and farming</p>
+                </div>
+                <div class="btn-header">
+                    <button class="btn-about">about</button>
+                    <button class="btn-contact">contact us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------what we do---------- -->
+    <div class="what-we-do" id="services">
+        <div class="group-what-we-do">
+            <div class="head">
+                <p>what <span>we do</span></p>
+            </div>
+            <div class="info-what-we-do">
+                <div class="info">
+                    <img src="/image/wwd-1.png" alt="">
+                    <p>Growing Fruits and <br>
+                        Vegetables</p>
+                    <span>alteration in some form, by injected <br>
+                         humour, or randomised words <br>
+                         which don't look even slightly <br>
+                         believable. If you are going to use a <br> 
+                         passage of Lorem Ipsum, you need <br>
+                         to be sure there isn't anything</span> <br>
+                    <button class="read-more">read more</button>
+                </div> 
+                <div class="info">
+                    <img src="/image/wwd-2.png" alt="">
+                    <p>Caring & Planting</p> 
+                    <br><br>
+                    <span>alteration in some form, by injected <br>
+                         humour, or randomised words <br>
+                         which don't look even slightly <br>
+                         believable. If you are going to use a <br> 
+                         passage of Lorem Ipsum, you need <br>
+                         to be sure there isn't anything</span> <br>
+                    <button class="read-more">read more</button>
+                </div> 
+                <div class="info">
+                    <img src="/image/wwd-3.png" alt="">
+                    <p>Spring & Fall <br>
+                        Cleanup</p>
+                    <span>alteration in some form, by injected <br>
+                         humour, or randomised words <br>
+                         which don't look even slightly <br>
+                         believable. If you are going to use a <br> 
+                         passage of Lorem Ipsum, you need <br>
+                         to be sure there isn't anything</span> <br>
+                    <button class="read-more">read more</button>
+                </div> 
+                <div class="prev-next">
+                    <div class="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------why choose us---------- -->
+    <div class="why-choose-us" id="why">
+        <div class="group-why">
+            <div class="head">
+                <p>why <span>choose us</span></p>
+            </div>
+            <div class="info-why">
+                <div class="con-info">
+                    <div class="info" style="background-color: #e6e804;">
+                        <img src="/image/why-1.png" alt="">
+                        <p style="color: #02231a;">Excellent Service</p>
+                        <span style="color: #02231a;">Necessary, making this the first true <br>
+                             generator on the Internet. It uses a <br>
+                             dictionary of over 200 Latin words, <br>
+                             combined with a handful</span>
+                    </div>
+                    <button class="read-more" style="color: #02231a; background-color: #e6e804;">read more</button>
+                </div>
+                <div class="con-info">
+                    <div class="info">
+                        <img src="/image/why-2.png" alt="">
+                        <p>Clean Working</p>
+                        <span>Necessary, making this the first true <br>
+                             generator on the Internet. It uses a <br>
+                             dictionary of over 200 Latin words, <br>
+                             combined with a handful</span>
+                    </div>
+                    <button class="read-more">read more</button>
+                </div>
+                <div class="con-info">
+                    <div class="info">
+                        <img src="/image/why-3.png" alt="">
+                        <p>Expert Farmer</p>
+                        <span>Necessary, making this the first true <br>
+                             generator on the Internet. It uses a <br>
+                             dictionary of over 200 Latin words, <br>
+                             combined with a handful</span>
+                    </div>
+                    <button class="read-more">read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------blog---------- -->
+    <div class="blog" id="blog">
+        <div class="group-blog">
+            <div class="head">
+                <p>our <span>blog</span> </p>
+            </div>
+            <div class="info-blog">
+                <div class="prev-next">
+                    <div class="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="icon-content">
+                        <div class="icon">
+                            <i class="fa-solid fa-heart"></i>
+                            <p>Like</p>
+                        </div>
+                        <div class="icon" style="margin: 68px 0;">
+                            <i class="fa-solid fa-message"></i>
+                            <p>Comment</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <p>Share</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <p>The Internet Tend To Repeat </p>
+                    <span>embarrassing hidden in the middle of text. All the Lorem <br>
+                         Ipsum generators on the Internet tend to repeat predefined <br>
+                          chunks as necessaryembarrassing hidden in the middle of <br>
+                           text. All the Lorem Ipsum generators on the Internet tend to <br>
+                            repeat predefined chunks as necessary</span>
+                    <button class="read-more">read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------get in touch---------- -->
+    <div class="get-in-touch" id="contact">
+        <div class="group-get">
+            <div class="head">
+                <p>get in <span>touch</span> </p>
+            </div>
+            <div class="con-form">
+                <form action="">
+                    <input type="text" placeholder="Full Name">
+                    <input type="tel" placeholder="Phone Number">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                </form>
+                <img src="/image/map.png" alt="">
+            </div>
+            <button class="send">send</button>
+        </div>
+    </div>
+    <!-- ----------testimonial---------- -->
+    <div class="testimonial" id="test">
+        <div class="group-test">
+            <div class="head">
+                <p>testimonial</p>
+            </div>
+            <div class="con-info">
+                <div class="prev-next">
+                    <div class="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="info">
+                    <img src="/image/info-1.png" alt="">
+                    <p class="head-1">Steven White</p>
+                    <p class="head-2">Look even</p>
+                    <span>words which don't look even slightly believable. If you are going <br>
+                         to use a passage of Lorem Ipsum, you need to be sure there isn't <br>
+                         anything embarrassing hidden in the middle of text. All the Lorem <br>
+                         Ipsumwords which don't look even slightly believable. If you are <br>
+                          going to use a passage of Lorem Ipsum, you need to be sure <br>
+                           there isn't anything embarrassing hidden in the middle of text. All <br>
+                            the Lorem Ipsum</span>
+                </div>
+                <div class="info">
+                    <img src="/image/info-2.png" alt="">
+                    <p class="head-1">Hanna Jonas</p>
+                    <p class="head-2">Look even</p>
+                    <span>words which don't look even slightly believable. If you are going <br>
+                         to use a passage of Lorem Ipsum, you need to be sure there isn't <br>
+                         anything embarrassing hidden in the middle of text. All the Lorem <br>
+                         Ipsumwords which don't look even slightly believable. If you are <br>
+                          going to use a passage of Lorem Ipsum, you need to be sure <br>
+                           there isn't anything embarrassing hidden in the middle of text. All <br>
+                            the Lorem Ipsum</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------contact---------- -->
+    <div class="contact">
+        <div class="group-tact">
+            <div class="head">
+                <p>farmfiled</p>
+            </div>
+            <div class="info-contact">
+                <div class="info-1">
+                    <p>address</p>
+                    <div class="mark">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Making this the first true </span>
+                    </div>
+                    <div class="tel">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Call : +01 1234567890</span>
+                    </div>
+                    <div class="em">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email : demo@gmail.com</span>
+                    </div>
+                    <div class="icon-link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="info-2">
+                    <p>links</p>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why">Why Us</a></li>
+                        <li><a href="#test">Testimonial</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="info-3">
+                    <p>Products</p>
+                    <span>necessary, making</span>
+                    <span>this the first true</span>
+                    <span>generator on the</span>
+                    <span>Internet. It uses a</span>
+                    <span>dictionary of over</span>
+                    <span>200 Latin words,</span>
+                </div>
+                <div class="info-4">
+                    <p>Subscribe</p>
+                    <form action="">
+                        <input type="email" placeholder="You Email">
+                        <div class="border"></div>
+                        <input type="submit" value="SUBSCRIBE">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p style="padding: 50px; font-size: 17px; text-align: center; color: white;">© 2020 All Rights Reserved. Design by Free Html Templates</p>
+</body>
+</html>

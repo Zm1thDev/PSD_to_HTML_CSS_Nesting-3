@@ -1,0 +1,33 @@
+/* 1700px */
+@media screen and (max-width:1700px) {
+    .header,.what-we-do,.why-choose-us,.blog,.get-in-touch,.testimonial,.contact{
+        width: 1350px;
+    }
+    .why-choose-us{
+        & .group-why{
+            right: 8%;
+        }
+    }
+    .blog{
+        & .group-blog{
+            width: 1200px;
+            right: 80px;
+            & .info-blog{
+                & .content{
+                    width: 600px;
+                    height: 470px;
+                }
+            }
+        }
+    }
+    .testimonial{
+        & .group-test{
+            & .con-info{
+                & .info{
+                    width: 550px;
+                    border: 1px solid red;
+                }
+            }
+        }
+    }
+}
