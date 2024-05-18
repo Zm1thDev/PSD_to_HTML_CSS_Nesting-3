@@ -442,9 +442,6 @@ body{
                 position: relative;
                 width: 676px;
                 height: 512px;
-                background: url(/image/blog.png) no-repeat;
-                background-size: cover;
-                background-position: center;
                 & .icon-content{
                     display: inline-block;
                     position: absolute;
@@ -465,6 +462,9 @@ body{
                     }
                     & .icon:active{
                         transform: translateY(-10px);
+                    }
+                    & .icon:nth-child(2){
+                        margin: 68px 0;
                     }
                 }
             }
@@ -639,25 +639,29 @@ body{
             & .info{
                 width: 599px;
                 height: 497px;
-                background: url(/image/test.png) ;
-                & img{
-                    margin: -48px 0 0 28px;
-                }
-                & .head-1{
-                    margin: 25px 0 0 28px;
-                    font-size: 25px;
-                }
-                & .head-2{
-                    margin: 10px 0 32px 28px;
-                    color: #e6e804;
-                    font-size: 17px;
-                    font-family: regular;
-                }
-                & span{
-                    margin-left: 28px;
-                    display: block;
-                    font-size: 17px;
-                    font-family: regular;
+                position: relative;
+                & .content{
+                    position: absolute;
+                    top: 0;
+                    & img{
+                        margin: -48px 0 0 28px;
+                    }
+                    & .head-1{
+                        margin: 25px 0 0 28px;
+                        font-size: 25px;
+                    }
+                    & .head-2{
+                        margin: 10px 0 32px 28px;
+                        color: #e6e804;
+                        font-size: 17px;
+                        font-family: regular;
+                    }
+                    & span{
+                        margin-left: 28px;
+                        display: block;
+                        font-size: 17px;
+                        font-family: regular;
+                    }
                 }
             }
         }
@@ -837,4 +841,11 @@ body{
             }
         }
     }
+}
+
+.text{
+   font-size: 17px;
+   padding: 50px;
+   text-align: center;
+   color: white; 
 }

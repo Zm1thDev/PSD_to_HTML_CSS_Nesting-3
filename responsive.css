@@ -16,18 +16,475 @@
                 & .content{
                     width: 600px;
                     height: 470px;
+                    display: flex;
+                    & img{
+                        width: 98%;
+                    }
                 }
             }
         }
     }
     .testimonial{
         & .group-test{
+            width: 1200px;
             & .con-info{
                 & .info{
-                    width: 550px;
-                    border: 1px solid red;
+                    display: flex;
+                    width: 500px;
+                    & .test{
+                        width: 98%;
+                    }
+                    & .content{
+                        & span{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .contact{
+        & .group-tact{
+            width: 1150px;
+        }
+    }
+}
+
+@media screen and (max-width:1490px) {
+    .header,.what-we-do,.why-choose-us,.blog,.get-in-touch,.testimonial,.contact{
+        width: 1200px;
+        height: 850px;
+    }
+    .what-we-do{
+        & .group-what-we-do{
+            width: 1100px;
+            top: 14.5%;
+            & .info-what-we-do{
+                & .info{
+                    & p{
+                        font-size: 22px;
+                    }
+                    & span{
+                        font-size: 16px;
+                    }
                 }
             }
         }
     }
+    .why-choose-us{
+        & .group-why{
+            width: 1050px;
+            & .info-why{
+                & .con-info{
+                    & .info{
+                        width: 330px;
+                        height: 370px;
+                        & p{
+                            font-size: 22px;
+                        }
+                        & span{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .blog{
+        & .group-blog{
+            top: 14.5%;
+            width: 1050px;
+            & .info-blog{
+                margin-top: 60px;
+                & .content{
+                    width: 480px;
+                    height: 400px;
+                    & img{
+                        width: 100%;
+                    }
+                    & .icon-content{
+                        top: 50px;
+                        left: 45px;
+                        & .icon{
+                            & i{
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+                & .info{
+                    & p{
+                        font-size: 30px;
+                    }
+                    & span{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .get-in-touch{
+        & .group-get{
+            width: 1070px;
+            left: 70px;
+            & .con-form{
+                margin-top: 25px;
+                & form{
+                    & input{
+                        width: 500px;
+                        height: 55px;
+                    }
+                    & textarea{
+                        width: 500px;
+                        height: 99px;
+                    }
+                }
+                & img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+    .testimonial{
+        & .group-test{
+            width: 1100px;
+            height: 635px;
+            top: 12.5%;
+            right: 50px;
+            & .con-info{
+                & .info{
+                    width: 460px;
+                    & .content{
+                        & span{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        & .group-tact{
+            width: 1060px;
+            left: 75px;
+        }
+    }
 }
+@media screen and (max-width:1340px) {
+    .menu{
+        margin-left: 40px;
+        & .bar_logo{
+            & .logo{
+                margin-left: 160px;
+            }
+        }
+    }
+    .header,.what-we-do,.why-choose-us,.blog,.get-in-touch,.testimonial,.contact{
+        width: 950px;
+        height: 650px;
+    }
+    .header{
+        & .group-header{
+            width: 750px;
+            & .prev-next{
+                & .prev , & .next{
+                    width: 65px;
+                    height: 65px;
+                }
+            }
+            & .info-header{
+                & .head{
+                    & p{
+                        font-size: 65px;
+                    }
+                }
+                & .btn-header{
+                    & .btn-about , & .btn-contact{
+                        width: 180px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .what-we-do{
+        & .group-what-we-do{
+            top: 12%;
+            width: 900px;
+            & .head{
+                & p{
+                    font-size: 30px;
+                }
+            }
+            & .info-what-we-do{
+                margin-top: 30px;
+                & .info{
+                    & img{
+                        width: 80%;
+                    }
+                    & p{
+                        font-size: 20px;
+                    }
+                    & span{
+                        font-size: 15px;
+                        margin-top: 10px;
+                    }
+                    & .read-more{
+                        margin-top: 15px;
+                        font-size: 15px;
+                        width: 120px;
+                    }
+                }
+                & .prev-next{
+                    & .prev , & .next{
+                        width: 65px;
+                        height: 65px;
+                    }
+                }
+            }
+        }
+    }
+    .why-choose-us{
+        & .group-why{
+            width: 850px;
+            height: 450px;
+            right: 5%;
+            top: 15%;
+            & .head{
+                & p{
+                    font-size: 30px;
+                }
+            }
+            & .info-why{
+                & .con-info{
+                    & .info{
+                        width: 250px;
+                        height: 280px;
+                        & img{
+                            width: 70px;
+                        }
+                        & p{
+                            font-size: 18px;
+                        }
+                        & span{
+                            font-size: 13px;
+                        }
+                    }
+                    & .read-more{
+                        font-size: 15px;
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+    .blog{
+        & .group-blog{
+            width: 870px;
+            height: 450px;
+            right: 35px;
+            top: 15.5%;
+            & .head{
+                & p{
+                    font-size: 30px;
+                }
+            }
+            & .info-blog{
+                & .prev-next{
+                    & .prev , & .next{
+                        width: 65px;
+                        height: 65px;
+                    }
+                }
+                & .content{
+                    width: 400px;
+                    height: 320px;
+                    & img{
+                        width: 100%;
+                    }
+                    & .icon-content{
+                        display: block;
+                        top: 35px;
+                        left: 35px;
+                        & .icon{
+                            & i{
+                                font-size: 20px;
+                            }
+                            & p{
+                                font-size: 15px;
+                            }
+                        }
+                        & .icon:nth-child(2){
+                            margin: 50px 0;
+                        }
+                    }
+                }
+                & .info{
+                    & p{
+                        font-size: 25px;
+                    }
+                    & span{
+                        font-size: 14px;
+                    }
+                    & .read-more{
+                        font-size: 15px;
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+    .get-in-touch{
+        & .group-get{
+            width: 870px;
+            height: 425px;
+            top: 17%;
+            left: 45px;
+            & .head{
+                & p{
+                    font-size: 30px;
+                }
+            }
+            & .con-form{
+                & form{
+                    & input{
+                        width: 400px;
+                        height: 35px;
+                        font-size: 16px;
+                        margin-bottom: 22px;
+                    }
+                    & textarea{
+                        width: 400px;
+                        height: 79px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            & .send{
+                width: 130px;
+                height: 50px;
+                font-size: 15px;
+                margin-top: 20px;
+            }
+        }
+    }
+    .testimonial{
+        & .group-test{
+            width: 880px;
+            height: 470px;
+            top: 13%;
+            right: 30px;
+            & .head{
+                & p{
+                    font-size: 30px;
+                }
+            }
+            & .con-info{
+                & .prev-next{
+                    & .prev , & .next{
+                        width: 65px;
+                        height: 65px;
+                    }
+                }
+                & .info{
+                    width: 360px;
+                    height: 340px;
+                    & .content{
+                        & img{
+                            width: 100px;
+                        }
+                        & .head-1{
+                            font-size: 20px;
+                        }
+                        & .head-2{
+                            font-size: 15px;
+                        }
+                        & span{
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        & .group-tact{
+            width: 850px;
+            height: 350px;
+            top: 23%;
+            left: 55px;
+            & .head{
+                & p{
+                    font-size: 50px;
+                }
+            }
+            & .info-contact{
+                margin-top: 90px;
+                & .info-1{
+                    & p{
+                        font-size: 25px;
+                    }
+                    & .mark , .tel , .em{
+                        & i{
+                            font-size: 15px;
+                        }
+                        & span{
+                            font-size: 15px;
+                        }
+                    }
+                    & .icon-link{
+                        & i{
+                            font-size: 25px;
+                        }
+                    }
+                }
+                & .info-2{
+                    p{
+                        font-size: 25px;
+                    }
+                    & ul{
+                        & li{
+                            & a{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                & .info-3{
+                    & p{
+                        font-size: 25px;
+                    }
+                    & span{
+                        font-size: 15px;
+                    }
+                }
+                & .info-4{
+                    & p{
+                        font-size: 25px;
+                    }
+                    & form{
+                        & input[type=email]{
+                            width: 230px;
+                            height: 55px;
+                            font-size: 15px;
+                        }
+                        & input[type=submit]{
+                            width: 230px;
+                            height: 90px;
+                            font-size: 15px;
+                        }
+                        & .border{
+                            width: 195px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .text{
+        font-size: 15px;
+        padding: 40px;
+    }
+}
+
